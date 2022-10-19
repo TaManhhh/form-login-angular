@@ -1,20 +1,15 @@
-<div>
+<!-- <div>
   <header>Hellooo</header>
-  <ul class="nav">
-    <li class="router">
-      <a [routerLink]="['/login']"  >Login</a>
-    </li>
-    <li class="router">
-      <a [routerLink]="['/Home']"   >Home</a>
-    </li>
-  </ul>
+  <div>
+    <a [routerLink]="['/login']"  >Login</a>
+  </div>
   <div>
     <router-outlet></router-outlet>
 
   </div>
-</div>
+</div> -->
 
-<!-- <div class="container">
+<div class="container">
   <div class="form">
   <form class="example-form" #f="ngForm" (ngSubmit)="onSubmit(f)">
     <mat-form-field class="example-full-width" appearance="fill">
@@ -27,7 +22,7 @@
 
 
     </mat-form-field>
-
+<!-- Email -->
     <mat-form-field class="example-full-width" appearance="fill">
       <mat-label>Email</mat-label>
       <input matInput placeholder="Your Email" id="email"
@@ -41,6 +36,7 @@
        >Email is invalid or empty</small>
     </mat-form-field>
 
+   <!-- Adress -->
     <mat-form-field class="example-full-width" appearance="fill">
       <mat-label>Address</mat-label>
       <input matInput placeholder="Your Address"
@@ -70,18 +66,15 @@
 
     </mat-form-field>
 
-<div class="Date">
-    <label id="example-radio-group-label">Gender</label>
-<mat-radio-group
-  aria-labelledby="example-radio-group-label"
-  class="example-radio-group"
-  [(ngModel)]="favoriteSeason" >
-  <mat-radio-button class="example-radio-button" *ngFor="let season of seasons" [value]="season" >
-    {{season}}
-  </mat-radio-button>
-</mat-radio-group>
+    <mat-radio-group aria-label="Select an option">
+      <div class="Date">
+      <div class="check-box-text"
+      name="gender" ngModel required  minlength="3" #gender="ngModel">Gender</div>
+      <mat-radio-button value="1">Male</mat-radio-button>
+      <mat-radio-button value="2">Female</mat-radio-button>
 
-</div>
+      </div>
+    </mat-radio-group>
 
   <div class="Date">
     <mat-form-field class="example-full-width" appearance="fill">
@@ -104,5 +97,5 @@
 
     </form>
   </div>
-</div> -->
+</div>
 

@@ -1,13 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
 })
-export class AppComponent {
-  title = 'login';
+export class LoginComponent implements OnInit {
+
   onSubmit(f: NgForm) {
     if(!f.valid){
       console.log('invalid data');
@@ -25,4 +25,8 @@ export class AppComponent {
     // this.minDate = new Date(currentYear - 20, 0, 1);
     this.maxDate = new Date(currentYear);
   }
+
+  ngOnInit() {
+  }
+
 }

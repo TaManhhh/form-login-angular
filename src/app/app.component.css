@@ -1,0 +1,11 @@
+.nav{
+margin-left:100px;
+display:flex;
+list-style:none;
+}
+.nav a{
+  text-decoration:none;
+}
+.router{
+padding-left:20px;
+}

@@ -1,0 +1,71 @@
+.container{
+  /* background-image: url("https://scontent-hkt1-2.xx.fbcdn.net/v/t39.30808-6/297681179_1222967368515603_916350628120636282_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=LO1c17QoE3IAX-40vrU&_nc_ht=scontent-hkt1-2.xx&oh=00_AT-eX_nU30b_IVrKddk4vJF6mV4m436emR0QUjYP1_RJrA&oe=634F270B");  */
+
+height:600px;
+}
+.example-form {
+    width: 500px;
+  }
+
+  .example-full-width {
+    width: 100%;
+
+  }
+  .form{
+    /* margin:100px 30% 100px 35%; */
+    margin-left:35%;
+    margin-right:30%;
+    margin-top:100px;
+    background: #330066;
+    text-align:center;
+    justify-content:center;
+    padding:20px 20px 20px 20px;
+    width:500px;
+    border-radius:5px;
+
+  }
+  .mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+
+  .example-button-row {
+    display: table-cell;
+    width: 440px;
+  }
+
+  .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+  .check-box-text{
+    color:white;
+    padding-right:70px;
+  }
+  .Date{
+    display:flex;
+    margin-top:20px;
+
+  }
+  .Date p {
+    padding-top:20px;
+    padding-right:20px;
+    color:white;
+  }
